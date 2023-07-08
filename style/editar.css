@@ -1,0 +1,126 @@
+body {
+    background-image: url('../img/pozo.jpg');
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #4caf50;
+}
+
+@keyframes titleAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    /* Añadido */
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049;
+  }

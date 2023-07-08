@@ -1,0 +1,130 @@
+body {
+    background-image: url('../img/Petroleo-neuquen.jpg');
+    background-size: cover;
+}
+
+h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    transition: color 0.3s ease;
+    text-align: center;
+    background: linear-gradient(45deg, #ff9f00, #ffcc70);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+h2:hover {
+    color: #ffa200;
+    transform: scale(1.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(45deg, #2c3e50, #742501);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    /* Añadido */
+}
+
+table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-editar {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-editar:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-eliminar {
+    padding: 8px 16px;
+    background-color: #ff3b30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-eliminar:hover {
+    background-color: #e32e25;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-volver {
+    margin-right: 2px; /* Ajustar el margen derecho */
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-volver:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-grafico {
+    margin-left: 2px; /* Ajustar el margen izquierdo */
+    padding: 10px 20px;
+    background-color: #ff3b30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-grafico:hover {
+    background-color: #e32e25;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
